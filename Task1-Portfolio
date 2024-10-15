@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <h1>Sarvesh Gudadhe</h1>
+            </div>
+            <div class="tagline">
+                <p>Computer Science Engineer</p>
+                </div>
+                </header>
+
+                <!--About-->
+                <section id="About">
+                    <h2>An IT Undergraduate Passionate About Becoming Skillful Professional.</h2>
+                    <img src="https://img.freepik.com/premium-photo/young-handsome-indian-boy-wearing-black-t-shirt_75648-1497.jpg?w=360" alt="Lokesh Nandurkar">
+                    <p>As a passionate web developer,I want strong html,css skills,javascript</p>
+                    </section>
+
+                    <!--skills-->
+                    <section id="skills">
+                        <h2>skills</h2>
+                        <ul>
+                            <li>c</li>
+                            <li>Java</li>
+                            <li>html,css,js</li>
+                        </ul>
+                        </section>
+
+               <!--projects-->
+               <section id="projects">
+                <h2>projects</h2>
+                <div class="projects">
+                    <h3>simple landing page</h3>
+                    <img src="landing page/pro1.jpg" alt="projects 1">
+                    <p>Developed a landing page with html and css.</p>
+                    </div>
+                    <div class="projects">
+                        <h3>calculator</h3>
+                        <img src="calculator/pro2.png" alt="=projects 2">
+                        <p>created a calculator using html ,css and javascript.</p>
+                        </div>
+                        <section>
+
+                            <!--Resume-->
+                            <section id="resume">
+                                <h2>Resume</h2>
+                                <a href="assests/resume(1).pdf" download>download My Resume</a>
+                                </section>
+
+                        <!--contact-->
+                        <section id="contact">
+                            <h2>Contact</h2>
+                            <p>Email: <a href="lokeshnandurkar8@gmail.com">lokeshnandurkar8@gmail.com</a></p>
+                            <p>Phone: <a href="tel:9112761540">9112761550</a></p>
+                            </section>
+
+</body>
+</html>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #667cad;
+    background-color: #ddecee;
+}
+
+#about img {
+    border-radius: 300%;
+    width: 120px;
+    height: 100px;
+    object-fit: 0;
+    margin-bottom: 1cm;
+}
+header{
+    background-color: white;
+    color: white;
+    padding: 1cm 0;
+    text-align: center;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+header .tagline p {
+    margin: 0;
+    font-style: italic;
+}
+
+section {
+    padding: 2cm;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 2cm;
+}
+
+section h2 {
+    border-bottom: 2px solid #353;
+    padding-bottom: 0.5cm;
+    margin-bottom: 1cm;
+}
+
+section img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 1cm 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+    #skills li {
+        background-color: #add;
+        margin: 0.5cm 0;
+        padding: 0.5cm;
+        border-radius: 8px;
+    }
+
+    .project {
+        margin-bottom: 2cm;
+    }
+
+    .project {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #resume a {
+        display: inline-block;
+        margin: 1cm 0;
+        padding: 0.5cm 1cm;
+        background-color: #353;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+#contact a {
+    color: #353;
+    text-decoration: none;
+}
